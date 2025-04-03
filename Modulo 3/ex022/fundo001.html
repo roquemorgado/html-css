@@ -5,46 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de imagem de fndo</title>
     <style>
-            body {
-                background-image: url(img/fantasy.jpg);
-                
-            }
+            body {  height: 98vh;
+                    background-image: url(img/fantasy.jpg);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+
+                    }
             
-            img {width: 100%;
-                display:block;
-                }
-
             div.quadrado{
+                padding: 20px;
+                background-image: url(img/wallpaper003.jpg);
                 border:1px solid black;
-                width: 300px;
-                height: 300px;
-                display: inline-block;
-                border-radius: 10px;
+                height: 100px;
+                width: 100%;
+                border:10px;
                 background-color: lightgray;
+                margin: 50px;
             }
 
-            div#q1 { background-color:skyblue;
+            div#q1 { background-position: left top;
 
             }
-            div#q2 { 
-                background-image: linear-gradient(to bottom, yellow, red);
+            div#q2 { background-position: left center;
+               
 
             }
-            div#q3 {  background-image: url('img/pattern003.png'); 
+            div#q3 {  background-position: right bottom;
 
             }
 
+            div#q4 { background-position: center center;
+
+            }
+
+            div#q5 { background-position: left bottom;}
     </style>
 </head>
 <body>
     <div class="quadrado" id="q1">
 
     </div>
+
+
     <div class="quadrado" id="q2">
 
     </div>
+
+
     <div class="quadrado" id="q3">
 
+    </div>
+
+
+    <div class="quadrado" id="q4">
+
+    </div>
+
+    <div class="quadrado" id="q5">
+        
     </div>
    
     
