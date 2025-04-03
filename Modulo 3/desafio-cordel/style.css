@@ -1,13 +1,65 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*font-family: "Sriracha", cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap'); /*font-family: "Passion One", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); /* "Eagle Lake", serif;*/
 
-body{   
+body{ font-size: 1em;
+        
 
 }
 
-header{background-color: black;
+*{margin: 0px;
+        padding: 0px;}
+
+header{
+        min-height: 150px;
+        background-color: black;
         color: white;}
+        header h1 { 
+                font-family:"Passion One", sans-serif; ;    
+                text-align: center;
+                padding-top:  10px;
+                font-size: 5em;
+        }
+        header p a {    font-weight: bold;
+                        color: white;
+                        text-decoration: none;
+        }
+        header p {      padding-bottom: 20px;
+                        font-family: verdana;
+                        text-align: center;
+        }
+        header p a:hover {text-decoration: underline;}
 
-main {  
+
+section{
+        font-size: 2.2em;
+        font-family:"Sriracha", cursive; ;
+        border:1px black;
+        padding:10px;
+        margin: 30px;
+        width: 50%;}
+
+
+.white{  
+        background-color: rgba(0, 0, 0, 0.591);
+        box-shadow: 1px 1px 1px black;
+        color: white;
 
 }
 
+footer {        background-color: black;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                margin: auto;
+                padding: 10px;
+                color: white;
+                }
+        footer a{       font-family: "Eagle Lake";
+                        color: white;
+                        text-decoration: none;
+                        }
+
+        footer a:hover{text-decoration: underline;
+                        font-weight: bold;
+                        }
