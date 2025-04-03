@@ -3,7 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap'); /*font-family: "Passion One", sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); /* "Eagle Lake", serif;*/
 
-body{ font-size: 1em;
+html, body{   
+        min-height: 100vh;
+        font-size: 1em;
+        background-size: auto;
+        background-attachment: fixed;
         
 
 }
@@ -14,12 +18,13 @@ body{ font-size: 1em;
 header{
         min-height: 150px;
         background-color: black;
-        color: white;}
+        color: white;
+        text-align: center;}
         header h1 { 
-                font-family:"Passion One", sans-serif; ;    
-                text-align: center;
+                font-family:"Passion One", sans-serif;
+                font-variant: small-caps;    
                 padding-top:  10px;
-                font-size: 5em;
+                font-size: 10vw;
         }
         header p a {    font-weight: bold;
                         color: white;
@@ -27,26 +32,34 @@ header{
         }
         header p {      padding-bottom: 20px;
                         font-family: verdana;
-                        text-align: center;
         }
         header p a:hover {text-decoration: underline;}
 
 
 section{
-        font-size: 2.2em;
-        font-family:"Sriracha", cursive; ;
-        border:1px black;
-        padding:10px;
-        margin: 30px;
-        width: 50%;}
+        
+        font-size: 4vw;
+        line-height: 2em;
+        font-family:"Sriracha", cursive;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-left: 30px;
+        padding-right: 10px;}
 
+#flor {background-image: url(imagens/background001.jpg);
+        background-position: right bottom;
+        background-size: cover;}
 
-.white{  
-        background-color: rgba(0, 0, 0, 0.591);
-        box-shadow: 1px 1px 1px black;
-        color: white;
+#livro {
+        background-image: url(imagens/background002.jpg);
+        background-position: right bottom;
+        background-size: cover;}
 
-}
+.white{ 
+        display: inline-block;
+        text-shadow: 1px 1px 1px black;
+        background-color: rgba(0, 0, 0, 0.259);
+        color: white;}
 
 footer {        background-color: black;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
