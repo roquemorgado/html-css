@@ -7,8 +7,15 @@
     <style>
         body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Courier, monospace}
 
-        table{border:1px    solid black;
-                width: 700px;}
+        table{  border:1px  solid black;
+                width: 700px;
+                border-collapse: collapse;}
+
+        caption {   background-color: grey;
+                    color: white;
+                    padding: 9px;
+                    border:1px solid black}
+            
         thead{  background-color: grey;
                 color: white;
                 font-weight: bold;
@@ -31,6 +38,9 @@
                 color: white;
                 background-color: grey;}
 
+         .vermelho {    background-color: rgba(255, 0, 0, 0.339);} 
+         .verde {background-color: green;} 
+
 
     </style>
 </head>
@@ -38,6 +48,16 @@
         <h1>Desafio 14 (Ainda Tabelas)</h1>
 
         <table>
+
+            <colgroup>
+                <col class="">
+                <col class="">
+                <col class="vermelho" span="2">
+                <col class="verde">
+                </colgroup>
+                
+
+            <caption>Média de Notas </caption>
             <thead>
                 <tr>
                     <th rowspan="2" scope="col">Área</th>
