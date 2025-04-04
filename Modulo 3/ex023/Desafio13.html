@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 13 </title>
+</head>
+
+    <style>
+            body{font-family: Arial, Helvetica, sans-serif;}
+            td { padding: 10px;
+                border: 1px solid black}
+            table{width: 600px;
+                   position: relative; 
+                    border-collapse: separate;}
+
+           tr > td {text-align: center;
+                        font-weight: bolder;
+                        padding: 10px;}
+
+
+
+            .t3{border-collapse: collapse;}
+            .t3 th {border: 1px solid black;
+                padding: 10px;
+                background-color: grey;}
+            .t3 td {    
+                font-weight: normal;
+            }
+            thead { 
+                box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.476);
+            }
+
+            caption { background-color: orange;
+                    font-size: 1.1em;
+                    padding: 10px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: bolder;}
+            
+
+    </style>
+<body>
+
+    <h1>Desafio 13 (parte 1 de 2)</h1>
+
+        <table class="1">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </table>
+
+    <h1>Desafio 13 (parte 2 de 2)</h1>
+
+            <table>
+                <tr>
+                    <td colspan="4">A</td>
+                    <td rowspan="4">B</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="4">C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                </tr>
+
+                <tr>
+                    <td>J</td>
+                    <td>K</td>
+                    <td>L</td>
+                </tr>
+                
+                <tr>
+                    <td colspan="4">M</td>
+                </tr>
+            </table>
+
+        <h1>Tabela da Aula (modo desafio)</h1>
+
+
+        <table class="t3">
+
+            <caption>Filmes Favoritos</caption>
+                <thead>
+                    <tr class="tr3">
+                        <th scope="col">Grupo</th>
+                        <th scope="col">Nomes</th>
+                        <th colspan="3" scope="colgroup">Filmes</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <th rowspan="3" scope="rowgroup">Mulheres</th>
+                        <td>Ana Maria Santos</td>
+                        <td>Alien</td>
+                        <td>Rambo</td>
+                        <td>Vingadores</td>
+                    </tr>
+                    <tr>
+                        <td>Beatriz Sousa</td>
+                        <td>Hulk</td>
+                        <td>Inception</td>
+                        <td>Batman</td>
+                    </tr>
+                    <tr>
+                        <td>Cláudia Melo</td>
+                        <td>Oblivion</td>
+                        <td>Matrix</td>
+                        <td>Big Hero</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3" scope="rowgroup">Homens</th>
+                        <td>Bruno Mendonça</td>
+                        <td>Intocáveis</td>
+                        <td>Amnésia</td>
+                        <td>Gladiador</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Lourenço</td>
+                        <td>Wall-E</td>
+                        <td>Oldboy</td>
+                        <td>Dangal</td>
+                    </tr>
+                    <tr>
+                        <td>Fabiano Mota</td>
+                        <td>Star Wars 5</td>
+                        <td>Taxi Driver</td>
+                        <td>Toy Story</td>
+                    </tr>
+                </tbody>
+        </table>
+
+
+
+
+
+</body>
+</html>

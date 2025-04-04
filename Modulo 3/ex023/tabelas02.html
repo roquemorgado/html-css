@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grander</title>
+
+        <style>
+            body{font-family: Arial, Helvetica, sans-serif;
+                    }
+
+            table{width: 500px;
+                    border-collapse: collapse;
+                    position: relative;}
+
+            thead > tr > th  {  
+                position: sticky;
+                top: -1px;
+            }      
+
+
+            td, th{border:1px solid black;
+                padding: 5px;}
+
+            th{background-color: grey;
+                    color: white;}
+
+            .num {text-align: right;}
+
+            caption {   background-color: darkgoldenrod;
+                        font-size: 1.5em;
+                        padding: 10px;
+                        font-weight: bold;
+                        }
+            tfoot{ background-color: grey;
+                    color: rgb(255, 255, 255);}
+            tbody > tr:nth-child(odd) { background-color: rgb(165, 164, 164);    
+
+            }
+        </style>
+</head>
+<body>
+
+    <h1>Uso de Tabelas Grandes</h1>
+
+        <table>
+            <caption>População Distrital de Portugal</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Destrito</th>
+                    <th scope="col" style="width: 50px;">Habitantes</th>
+                </tr>
+            </thead>
+
+
+
+            <tbody>
+             
+                <tr>
+                    <td>Lisboa</td>
+                    <td class="num">2.301.904</td>
+                </tr>
+
+                <tr>
+                    <td>Porto</td>
+                    <td class="num">1.819.515</td>
+                </tr>
+
+                <tr>
+                    <td>Setúbal</td>
+                    <td class="num">887.928</td>
+                </tr>
+
+                <tr>
+                    <td>Braga</td>
+                    <td class="num">854.416</td>
+                </tr>
+
+                <tr>
+                    <td>Aveiro</td>
+                    <td class="num">712.995</td>
+                </tr>
+
+                <tr>
+                    <td>Faro</td>
+                    <td class="num">472.00</td>
+                </tr>
+
+
+                <tr>
+                    <td>Leiria</td>
+                    <td class="num">467.139</td>
+                </tr>
+
+                <tr>
+                    <td>Santarém</td>
+                    <td class="num">433.782</td>
+                </tr>
+
+                <tr>
+                    <td>Coimbra</td>
+                    <td class="num">411.450</td>
+                </tr>
+
+                <tr>
+                    <td>Viseu</td>
+                    <td class="num">362.040</td>
+                </tr>
+
+                <tr>
+                    <td>Madeira</td>
+                    <td class="num">253.259</td>
+                </tr>
+
+                <tr>
+                    <td>Açores</td>
+                    <td class="num">239.942</td>
+                </tr>
+
+                <tr>
+                    <td>Viana do Castelo</td>
+                    <td class="num">232.220</td>
+                </tr>
+
+                <tr>
+                    <td>Vila Real</td>
+                    <td class="num">184.525</td>
+                </tr>
+
+                <tr>
+                    <td>Castelo Branco</td>
+                    <td class="num">177.719</td>
+                </tr>
+
+                <tr>
+                    <td>Évora</td>
+                    <td class="num">152.853</td>
+                </tr>
+
+                <tr>
+                    <td>Beja</td>
+                    <td class="num">146.725</td>
+                </tr>
+
+                <tr>
+                    <td>Guarda</td>
+                    <td class="num">141.261</td>
+                </tr>
+
+                <tr>
+                    <td>Bragança</td>
+                    <td class="num">122.218</td>
+                </tr>
+
+                <tr>
+                    <td>Portalegre</td>
+                    <td class="num">104.121</td>
+                </tr>
+
+
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de Habitante</th>
+                    <td class="num"><strong>10.467.366</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    
+</body>
+</html>
