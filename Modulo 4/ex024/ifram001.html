@@ -4,14 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+
+    <style>
+        body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+        header {   background-color: grey;
+                        padding: 5px;
+                    margin: auto;
+                text-align: center;}
+
+                        nav{margin: auto;
+                            text-align: center;
+                            padding: 10px;
+                        }
+
+                        nav a{padding: 10px;
+                                font-weight: bolder;
+                                font-family: Arial, Helvetica, sans-serif;}
+                        nav a:visited{color: blueviolet;}
+
+            iframe {    width: 100%;
+                        height: 300px;}
+                            
+
+    </style>
+
+
+
+
 </head>
 <body>
-    <h1>Testando o uso de um ifram</h1>
-    <p>Acessando github usando o link
+
+    <header>
+        <h1>Testando Iframes</h1>
+        <p></p>
+    </header>
+
+        <nav>
+            <a href="#">Home</a>
+            <a target="mainscreen" href="https://i.makeagif.com/media/4-06-2022/uh6SrO.gif">Sargeras</a>
+            <a target="mainscreen" href="https://64.media.tumblr.com/bf1502cf952e9134ca43f381d445b092/tumblr_pzjpswshal1s36g9so1_r2_540.gif">Sylvanas</a>
+            <a target="mainscreen" href="https://steamuserimages-a.akamaihd.net/ugc/27363113130182568/D3D93FD84085FE33F67E5942B49A0A66363C4FA8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">Arthas</a>
+        </nav>
+
+        <main>
+                <h2>Personagens World of Warcraft</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quas itaque incidunt nihil aut, voluptates maxime amet quisquam et suscipit necessitatibus voluptas dignissimos, totam tenetur nemo ducimus nostrum soluta.</p>
+
+            <iframe id="frame" name="mainscreen" src="" ></iframe>
+
+
+
+        </main>
+
+         
         
-        <iframe src="https://www.cursoemvideo.com"></iframe>
-        
-        Roquemor como iframe!
+
     </p>
     
 </body>
