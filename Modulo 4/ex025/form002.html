@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplos de Formulário</h1>
+    <h2>Usando input</h2>
+
+    <!-- Para criar relação, caixa e texto envelopa a variante com "label" e associa os id para cada um-->
+    <!--Em type "radio" usa-se o mesmo "name" para so poder ter 1 variante selecionada-->
+        <form action="" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Gender</legend>
+                        <input type="radio" name="gender" id="male" value="M"> <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="F"> <label for="female">Female</label>
+                </fieldset>
+
+
+                <fieldset>  
+                    <legend>Favourit Sports</legend>
+                    <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Football</label> <br>
+                    <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquetball</label> <br>
+                    <input type="checkbox" name="esruby" id="iesruby"> <label for="iesruby">Rugby</label> <br>
+                    <input type="checkbox" name="esbad" id="iesbad"> <label for="iesbad">Badmington</label> <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Aula 09 Capitulo 24</legend>
+                    <p>
+                        <input type="color" name="color" id="icolor">
+                        <label for="icolor">Cor:</label>
+                    </p>
+
+                    <p>
+                        <label for="ilvl">Satisfaction Level</label>
+                        <input type="range" name="lvl" id="ilvl" min="1" max="100"
+                        value="1">
+                    </p>
+
+                    <p>
+                        <label for="iphoto">Profile Photo</label>
+                        <input type="file" name="photo" id="iphoto">
+                    </p>
+
+                </fieldset>
+               
+
+
+
+
+
+
+                
+
+                <p>
+                    <input type="submit" value="Register"> 
+                    <input type="reset" value="Cancel">
+                </p>
+        </form>
+
+
+        <h2>Aula 10 Capitulo 24</h2>
+            <p>Exemplos de Formulário</p>
+
+            <form action="" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Aula 10 de Formulário</legend>
+
+                        <p>
+                            <label for="istate">State</label>
+                            <select name="stat" id="istate">
+
+                                <optgroup label="North Portugal" >
+                                    <option value="Porto">Porto</option>
+                                    <option value="Braga">Braga</option>
+                                    <option value="Guimarães">Guimarães</option>
+                                    <option value="Viana do Castelo">Viana do Castelo</option>
+                                </optgroup>
+
+                            </select>
+                        </p>
+
+
+                </fieldset>
+            </form>
+    
+</body>
+</html>
