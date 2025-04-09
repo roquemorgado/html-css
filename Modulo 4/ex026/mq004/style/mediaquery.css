@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*Todas as Versoes para Media*/
+
+/*Typical Devides Breakpoints 2024
+    Mobile devices – 320px — 480px.
+  iPads, Tablets – 481px — 768px.
+  Small screens, laptops – 769px — 1024px.
+  Desktops, large screens – 1025px — 1200px.
+  Extra large screens, TV – 1201px, and more.
+*/
+
+@media print { 
+    main h1 { font-family: 'Courier New', Courier, monospace;
+            text-shadow: none;
+            color: black;}
+            img#phone {display: none;}
+    main {  border: 2px solid black;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {    /*Tablet*/
+    body {  
+        background-image: url(../img/back-tablet.jpg);
+    }
+    img#tablet {display: block;}
+    img#phone {display: none;}
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {  /*Desktop*/ 
+    body {  
+        background-image: url(../img/back-pc.jpg);
+    }
+    img#pc {display: block;} 
+    img#phone {display: none;}
+}
+
+@media screen and (min-width:1200px) { /*Grandes Ecrãs*/
+    body {  
+        background-image: url(../img/back-tv.jpg);
+    }
+    img#tv {display: block;}
+    img#phone {display: none;}
+}
