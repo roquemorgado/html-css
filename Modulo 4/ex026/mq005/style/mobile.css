@@ -6,6 +6,7 @@
 
 body, html {    
     background-color: lightgrey;
+    width: 100vw;
 }
 
 header {    
@@ -50,7 +51,7 @@ menu ul a:hover {
 }
 
 main {  
-    width: 90vw;
+    max-width: 90vw;
     background-color: white;
     margin: auto;
     padding: 10px;
@@ -58,7 +59,7 @@ main {
     margin-top: 10px;
 }
 
-main article h2 {   
+article h2 {   
     padding-bottom: 20px;
 }
 
