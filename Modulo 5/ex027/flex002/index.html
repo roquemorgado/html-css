@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+            div.conteiner { background-color: salmon;
+                            display: flex;
+                            flex-flow: row nowrap;
+                            height: 800px;
+                            align-items: flex-start;
+                            }
+
+
+            div.item {  background-color: aqua;
+                        border: 1px solid black;
+                        text-align: center;
+                        padding: 20px;
+                        flex-basis: 200px;
+                        }
+
+            div#caixaA {    
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
+
+            div#caixaB {    
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
+
+            div#caixaC {  
+                align-self: center;  
+                flex-grow: 2;
+                flex-shrink: 2;
+            }
+            
+            div#caixaD {    
+                align-self:center;
+                flex-grow: 2;
+                flex-shrink: 2;
+            }
+    
+            div#caixaE {    
+                align-self: flex-end;
+                flex-grow: 1;
+                flex-shrink: 1;
+            }
+            
+            div#caixaF {    
+                align-self: flex-end;
+                flex-grow: 1;
+                flex-shrink: 1;
+            }
+    </style>
+</head>
+<body>
+        <div class="conteiner">
+            <div class="item" id="caixaA"> A</div>
+            <div class="item" id="caixaB"> B</div>
+            <div class="item" id="caixaC"> C</div>
+            <div class="item" id="caixaD"> D</div>
+            <div class="item" id="caixaE"> E</div>
+            <div class="item" id="caixaF"> F</div>
+        </div>
+</body>
+</html>
