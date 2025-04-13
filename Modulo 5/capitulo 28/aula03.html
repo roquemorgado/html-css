@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        div {   
+            background-color: rgb(192, 212, 39);
+            border: 1px solid black;
+            align-content: center;
+            text-align: center;
+        }
+
+        article.container { 
+            display: grid;
+            grid-template-columns: 100px 200px auto 100px ; /*colunas*/
+            grid-template-rows: 100px 100px 100px 100px; /*linhas*/
+            grid-gap: 20px;
+            background-color: green;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+            <header>
+                <h1>Estudo de Grid Layout</h1>
+            </header>
+
+            <main>
+                <section>
+                    <article class="container">
+                        <div>A</div>
+                        <div>B</div>
+                        <div>C</div>
+                        <div>D</div>
+                        <div>E</div>
+                        <div>F</div>
+                        <div>G</div>
+
+                        
+                    </article>
+                </section>
+            </main>
+
+    
+</body>
+</html>
